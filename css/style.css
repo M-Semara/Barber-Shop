@@ -1,0 +1,219 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+    }
+    /* MARGIN 0 POUR ENLEVER LA MARGE PAR DEFAUT QUI EST SUR TOUTE LA PAGE*/
+
+                        /*------------------MENU START------------------*/
+.nav-logo-recherche{
+    background-color: #F5F0DA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto; 
+}
+h1{
+    color: #2C6071;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Lucida';
+}
+input {
+    width: 200px;
+    height: 25px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #F5F0DA;
+    border-color: black;
+    /* INTERIEUR DE LA BARRE DE RECHERCHE*/
+}
+.BARRE{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+background-color:transparent;
+/*BARRE DE RECHERCHE*/
+}
+button{
+        position: absolute;
+       background-color: transparent;
+       border:0px;
+       /*LOGO LOUPE*/
+}
+.LOGO{
+    height: 150px;
+}
+.colornav{background-color: #F5F0DA;
+    box-shadow:0px 9px 9px -5px rgb(182, 175, 175);
+}
+.nav-logo-recherche img {
+    margin-left: 100px;
+}
+.menu{
+    margin-top: 50px;
+    background-color: #F5F0DA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.moustache {
+    vertical-align: middle;
+    background-color:transparent;
+ }
+ .col-menu ul{
+    margin-left: 0;
+    padding: 0;
+    margin-bottom: 50px;
+ } 
+ .col-menu ul li{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 70px;
+    /* MISE EN LIGNE DE LA LISTE */
+ } 
+ li a{
+    color: black;
+    font-size: 20px;
+    /* CHANGEMENT DE LA COULEUR DU LIEN HYPERTEXTE*/
+}
+.row {    
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    /*MISE EN PLACE DE LA BARRE NAV*/
+}
+.RDV a{
+    background-color:#2C6071;
+    box-shadow: 8px 5px 1px black;
+    font-size: 20px;
+    padding: 10px;
+    /*CREATION DU BOUTON RDV AVEC L'OMBRAGE*/
+    text-decoration: none;
+    color: white;
+    /*POUR ENLEVER LE SOULIGNAGE DES HYPERTEXTE ET CHANGER LA COULEUR DE CELUI CI*/
+}
+.rdv-image-fond{
+    background:no-repeat center/cover url("/2022/bandeau.jpg");
+    /* POUR QUE L'IMAGE D'ARRIERE PLAN PRENNE 100% DE LA PAGE*/
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 40px;
+}
+                        /*------------------MENU END------------------*/
+
+                        /*------------------PRESENTATION START------------------*/
+.title-presentation{
+    display: flex;
+    flex-direction: row;
+}
+.title-presentation::after{
+content: ""; 
+border-bottom: 2px solid ;  
+width: 40%;
+/*CREATION DE LA LIGNE HORIZONTALE*/
+}
+.text-presentation{
+    font-size: 24px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+                        /*------------------PRESENTATION END------------------*/
+
+                        /*------------------SERVICES START------------------*/
+.carte{
+    width: 90%;
+    margin: auto;
+}
+.container2{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.card {
+    border: solid 5px #b7912c;
+    width: 30%;
+    font-size: 25px;
+    text-align: center;
+}
+.image {
+    width: 100%;
+    height: 270px;
+    /*AJUSTER LES IMAGES DANS LES CARTES */
+}
+.order-1{
+    order: 2;
+}
+.order-2{
+    order: 3;
+}
+.order-3{
+    order: 1;
+}
+
+.tarif{
+    text-decoration: none;
+    background-color:#2C6071;
+    box-shadow: 5px 3px 3px black;
+    padding: 5px;
+    color: white;
+    width: 20%;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+    font-size: medium;
+    /*MISE EN PLACE DES TARIFS DANS LEUR CARTES*/
+}
+h2{
+    font-size: x-large;
+    /* POUR QUE TOUT LES "H2" DE LA PAGE PRENNENT CETTE TAILLE*/
+}
+
+                        /*------------------SERVICES END------------------*/
+
+                        /*------------------FOOTER START------------------*/    
+footer {
+    margin-top: 100px;
+    background-color: #F5F0DA;
+    font-size: 25px;
+}
+ul li{
+    list-style: none;
+    text-align: left;
+}
+.logo_footer {
+    height: 150px;
+}
+.col-foot{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+}
+.ligne-RS ul li{
+ display: inline-block;
+
+}
+.copyright{
+    text-align:center
+}
+                        /*------------------FOOTER END------------------*/
+
+                        .p-relative{
+                            position: relative;
+                        }
+                        .p-fixed{
+                            position: fixed;
+                        }
+                        .w-100{
+                            width: 100%;
+                        }
